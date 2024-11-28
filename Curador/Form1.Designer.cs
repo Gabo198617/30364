@@ -35,6 +35,7 @@
             label1 = new Label();
             textBox1 = new TextBox();
             label2 = new Label();
+            button3 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -106,12 +107,25 @@
             label2.TabIndex = 3;
             label2.Text = "Consulta con el Curador";
             // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.Control;
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+            button3.ForeColor = SystemColors.ControlLightLight;
+            button3.Location = new Point(356, 340);
+            button3.Name = "button3";
+            button3.Size = new Size(110, 29);
+            button3.TabIndex = 3;
+            button3.Text = "Consultar";
+            button3.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
+            Controls.Add(button3);
             Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(panel1);
@@ -131,5 +145,6 @@
         private Button button1;
         private TextBox textBox1;
         private Label label2;
+        private Button button3;
     }
 }
