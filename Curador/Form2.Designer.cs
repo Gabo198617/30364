@@ -93,6 +93,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(199, 27);
             textBox1.TabIndex = 3;
+            textBox1.Text = "Usuario";
             // 
             // textBox2
             // 
@@ -101,6 +102,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(199, 27);
             textBox2.TabIndex = 4;
+            textBox2.Text = "Contraseña";
             textBox2.TextChanged += textBox2_TextChanged;
             // 
             // button3
